@@ -1,0 +1,75 @@
+name: geo_field_mate
+description: Professional geological field data collection app for students and field geologists. Record structural measurements, GPS locations, and generate AI-powered interpretations.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP client
+  http: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # GPS & Location
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  
+  # Camera & Image
+  image_picker: ^1.0.4
+  
+  # PDF Generation
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  
+  # CSV Export
+  csv: ^5.1.1
+  
+  # Share functionality
+  share_plus: ^7.2.1
+  
+  # File handling
+  path: ^1.8.3
+  
+  # Icons
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+  
+  # UUID for unique IDs
+  uuid: ^4.2.1
+  
+  # Date formatting
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  # App Icon Configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#4A7C59"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
